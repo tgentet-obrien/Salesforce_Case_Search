@@ -1,0 +1,17 @@
+{
+  "appName": {
+    "message": "Busqueda de casos en Saleforce"
+  },
+  "appDesc": {
+    "message": "Busqueda de casos utilizando el numero del caso"
+  },
+  "errorMsg" : {
+          "message": " No encontrado o numero de caso no válido, intentalo otra vez por favor"
+  },
+  "wrongTab" : {
+          "message": "Por favor, navega en una página de Salesforce antes de utilizarla"
+  },
+  "whatCase" : {
+    "message": "Cual es tu numero de caso?"
+  }
+}

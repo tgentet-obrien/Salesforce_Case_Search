@@ -1,0 +1,17 @@
+{
+  "appName": {
+    "message": "Paghanap ng Kaso sa Salesforce"
+  },
+  "appDesc": {
+    "message": "Naghahanap ng kaso gamit ang numerong pang-kaso"
+  },
+  "errorMsg" : {
+          "message": " hindi mahanap o kaya nama'y hindi nararapat na numero ng kaso, maaari lamang na ulitin"
+  },
+  "wrongTab" : {
+          "message": "Maaari'y magtungo sa Salesforce bago gamitin"
+  },
+  "whatCase" : {
+    "message": "Ano ang numero ng iyong kaso?"
+  }
+}

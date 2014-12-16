@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDesc__",
+  "default_locale": "en",
+
+  "version": "5.1.1",
+  "browser_action": {
+    "default_icon": "salesforce.png",
+    "name": "Click to search"
+  },
+  "background": {
+      "scripts": [
+        "caseSearch.js"
+      ]
+  },
+   "content_scripts": [ {
+      "js": [ "loadScript.js" ],
+      "matches": [
+          "https://*.salesforce.com/*",
+          "https://*.force.com/*"
+       ]
+   } ],
+  "permissions": [
+      "*://*.salesforce.com/",
+      "*://*.force.com/" 
+      ],
+  "icons": {
+      "16": "salesforce.png",
+      "48": "salesforce.png",
+      "128": "salesforce.png"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

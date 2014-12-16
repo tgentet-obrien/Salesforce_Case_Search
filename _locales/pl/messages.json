@@ -1,0 +1,17 @@
+{
+  "appName": {
+    "message": "Wyszukiwanie spraw w Salesforce"
+  },
+  "appDesc": {
+    "message": "Wyszukiwanie spraw na podstawie numeru sprawy"
+  },
+  "errorMsg" : {
+          "message": " Sprawa nie może zostać odnaleziona lub jej numer nie jest poprawny"
+  },
+  "wrongTab" : {
+          "message": "Proszę przejść do strony Salesforce przed rozpoczęciem korzystania"
+  },
+  "whatCase" : {
+    "message": "Jaki jest numer Twojej sprawy?"
+  }
+}

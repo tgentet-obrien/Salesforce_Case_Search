@@ -1,0 +1,18 @@
+{
+  "appName": {
+    "message": "
+Cautarea Cazului in Salesforce"
+  },
+  "appDesc": {
+    "message": "Cautarea cazurilor prin intermediul numarului de caz"
+  },
+  "errorMsg" : {
+          "message": " nu a putut fi gasit sau nu este un numar valid de caz, te rugam sa incerci din nou"
+  },
+  "wrongTab" : {
+          "message": "Te rugam sa navighezi pe o pagina de salesforce inainte de a folosi asta."
+  },
+  "whatCase" : {
+    "message": "Care este numarul cazului tau?"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "appName": {
+    "message": "Pesquisa de Casos Salesforce"
+  },
+  "appDesc": {
+    "message": "Procure por casos usando o número do caso."
+  },
+  "errorMsg" : {
+          "message": " O caso não foi encontrado ou o número não é válido. Por favor, tente novamente"
+  },
+  "wrongTab" : {
+          "message": "Por favor, entre em uma página do Salesforce antes de usar a extensão."
+  },
+  "whatCase" : {
+    "message": "Qual o número do caso?"
+  }
+}
