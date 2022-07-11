@@ -16,7 +16,7 @@ To install this Extenstion you will need to do the following:
 
 2) Navigate to **chrome://extensions/**.
 
-3) Drag the main **Chrome Extension** folder onto the page.
+3) Drag the **parent** folder onto the page.
 
 4) Enjoy!
 
