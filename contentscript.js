@@ -1,7 +1,6 @@
 var sessionID = document.cookie.match('sid=([^;]*)')[1];
 
 sforce.connection.sessionId = sessionID;
-
 /* Create variable with messages called from the manifest.json script */
 var promptMessage = chrome.i18n.getMessage("errorMsg");
 var whatCase = chrome.i18n.getMessage("whatCase");
@@ -9,9 +8,9 @@ var whatCase = chrome.i18n.getMessage("whatCase");
 caseQuery();
 
 /* Start search function */
-function caseQuery() {
+function caseQuery(){
     /* Create variable and set to false, used later to throw error if need be */
-    var blockSearch = "";
+    var blockSearch = false;
 
     /* Check SF session cookie in try catch, change to true if session cookie is matched */
     try {
@@ -19,12 +18,13 @@ function caseQuery() {
     } catch (e) {
         blockSearch = true;
     }
+
     var resultTrim = prompt(whatCase.trim());
     var result = resultTrim.replace(/\'+/g,"\\'");
 
-    if(blockSearch == true) {
+    if(blockSearch) {
         alert("You must log into Salesforce prior to running the case search.");
-    } else if(blockSearch == false) {
+    } else {
         if(result == null) {
             return false;
         } else if(result.indexOf("--") != -1) {

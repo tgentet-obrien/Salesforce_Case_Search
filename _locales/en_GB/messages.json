@@ -5,13 +5,13 @@
   "appDesc": {
     "message": "Searches for cases using the case number."
   },
-  "errorMsg" : {
-          "message": " could not be found or is not a valid case number, please try again"
+  "errorMsg": {
+    "message": " could not be found or is not a valid case number, please try again"
   },
-  "wrongTab" : {
-          "message": "Please navigate to a salesforce page prior to using this."
+  "wrongTab": {
+    "message": "Please navigate to a salesforce page prior to using this."
   },
-  "whatCase" : {
+  "whatCase": {
     "message": "What is your case number?"
   }
 }
